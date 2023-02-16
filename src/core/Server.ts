@@ -1,7 +1,7 @@
 import AppResponse from '@Classes/AppResponse';
 import appSettings from '@Config/settings';
 import DatabaseClient from '@Core/DbClient';
-import { HttpStatusCode } from '@Enums/HttpStatusCode';
+import { HttpStatusCode } from 'axios';
 import NodeEnv from '@Enums/NodeEnv';
 import { IRequest } from '@Interfaces/IRequest';
 import Route from '@Interfaces/Route';
