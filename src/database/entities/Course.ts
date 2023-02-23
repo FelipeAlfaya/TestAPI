@@ -1,5 +1,5 @@
 import { Column, Entity, JoinColumn, OneToMany, PrimaryColumn } from 'typeorm';
-import { Module } from './modules';
+import { Module } from './Modules';
 
 @Entity()
 export class Course {

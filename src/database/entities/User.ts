@@ -25,6 +25,42 @@ export default class User {
   })
   public password: string;
 
+  @Column({ nullable: true })
+  public avatar: string;
+
+  @Column({ nullable: true })
+  public cpf: string;
+
+  @Column({ nullable: false })
+  public income: string;
+
+  @Column({ nullable: true, unique: true })
+  public phone: string;
+
+  @Column({ nullable: true })
+  public address: string;
+
+  @Column({ nullable: true })
+  public city: string;
+
+  @Column({ nullable: true })
+  public state: string;
+
+  @Column({ nullable: true })
+  public country: string;
+
+  @Column({ nullable: true })
+  public zip_code: string;
+
+  @Column({ nullable: true })
+  public birth_date: string;
+
+  @Column({ nullable: true })
+  public profession: string;
+
+  @Column({ default: 0, nullable: true })
+  public points: number;
+
   @Column()
   public createdAt: Date;
 

@@ -1,5 +1,5 @@
 import { Column, Entity, ManyToOne, PrimaryColumn } from 'typeorm';
-import { Video } from './video';
+import { Video } from './Video';
 
 @Entity()
 export class Module {
